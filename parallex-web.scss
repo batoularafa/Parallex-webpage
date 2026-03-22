@@ -1,0 +1,51 @@
+.title{
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+body { 
+  margin: 0;
+  padding: 0;  
+}
+.sunsetimg{
+    background-image: url("sunset.avif");
+}
+.sunsetimg, .pond, .flowers, .minecraft{
+    height: 500px;
+    //  min-height: 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    //   background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    // position: fixed; >>> it doesnt work here. it makes the image disappear.
+}
+.flowers{
+    background-image: url("flowery-path.avif");    
+}
+.pond{
+    background-image: url("pond-scene.avif");
+}
+.minecraft{
+    background-image: url("minecraft-logo.jpg");
+}
+#logo{
+    transform: translateY(-10px);
+}
+.pickaxe{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px
+}
+.credits{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background-color:  antiquewhite;
+    text-align: center;
+    padding: 10px;
+    
+}
